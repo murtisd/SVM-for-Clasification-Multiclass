@@ -1,16 +1,15 @@
-# 🧠 Multiclass Job Category Classification Using Support Vector Machine Algorithm
+# Multiclass Job Category Classification Using Support Vector Machine Algorithm
 
 ## 📘 Project Description
 This project uses a dataset scraped from the job portal **Tech in Asia**. After data cleaning and type adjustments, seven columns were selected for analysis:  
 `Job ID`, `Label Category`, `Name`, `Company`, `Location`, `Salary`, and `Skills`.  
 
 The model uses **Name** and **Skills** as inputs and **Label Category** as output. It was trained using a **Support Vector Machine (SVM)** with a **linear kernel** and **one-vs-rest** approach.  
-
 The model achieved the following performance metrics:  
 - **Accuracy:** 88.89%  
 - **Precision (Weighted):** 88.87%  
 - **Recall (Weighted):** 88.89%  
-- **F1-Score (Weighted):** 88.32%  
+- **F1-Score (Weighted):** 88.32%
 
 These results indicate that the model effectively predicts job categories based on textual data.
 
@@ -79,6 +78,6 @@ This project is supported by an **interactive analytics dashboard**, providing v
 
 ---
 
-⭐ **Author:** [Your Name]  
+⭐ **Author:** [Murti Sari Dewi]  
 📅 **Year:** 2025  
 
