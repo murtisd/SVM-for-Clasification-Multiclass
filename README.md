@@ -1,6 +1,6 @@
 # Multiclass Job Category Classification Using Support Vector Machine Algorithm
 
-## 📘 Project Description
+## Project Description
 This project uses a dataset scraped from the job portal **Tech in Asia**. After data cleaning and type adjustments, seven columns were selected for analysis:  
 `Job ID`, `Label Category`, `Name`, `Company`, `Location`, `Salary`, and `Skills`.  
 
@@ -15,7 +15,7 @@ These results indicate that the model effectively predicts job categories based 
 
 ---
 
-## 🎯 Purpose
+## Purpose
 The main objective of this project is to develop a machine learning model capable of classifying job postings into multiple categories based on job titles and required skills.  
 This project aims to:
 - Improve understanding of job market segmentation.  
@@ -24,14 +24,14 @@ This project aims to:
 
 ---
 
-## ❓ Research Questions
+## Research Questions
 - How can job categories be accurately classified using job posting data?  
 - Which features (such as job titles and skills) most influence classification accuracy?  
 - How effective is the SVM algorithm in multiclass job categorization?  
 
 ---
 
-## ⚙️ Process
+## Process
 1. **Feature Selection** — using `Name` and `Skills` as inputs and `Label Category` as output.  
 2. **Data Splitting** — dividing the dataset into 80% training and 20% testing data.  
 3. **Encoding and Vectorization** — label encoding for output and TF-IDF vectorization for input text.  
@@ -41,7 +41,7 @@ This project aims to:
 
 ---
 
-## 📊 Dashboard
+## Dashboard
 An interactive dashboard built with **Google Looker Studio** visualizes:
 - Job distribution by category  
 - Top required skills for each job category  
@@ -51,33 +51,19 @@ An interactive dashboard built with **Google Looker Studio** visualizes:
 
 ---
 
-## 💡 Project Insights
+## Project Insights
 The analysis shows that **job titles** and **skill keywords** are strong indicators for predicting job categories.  
 The high accuracy demonstrates that **SVM with a linear kernel** performs effectively in **multiclass text classification tasks**.  
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 The trained **SVM model** successfully predicts job categories based on job titles and skills.  
 This project is supported by an **interactive analytics dashboard**, providing valuable insights for better visualization and decision-making.  
 
----
-
-## 🧩 Tools & Technologies
-- **Python** (Pandas, Scikit-learn, NumPy, Matplotlib)  
-- **TF-IDF Vectorizer**  
-- **Support Vector Machine (SVM)**  
-- **Google Looker Studio** for visualization  
 
 ---
 
-## 📂 Resources
-- Dataset: Scraped from [Tech in Asia](https://www.techinasia.com/jobs)  
-- Dashboard: [Google Looker Studio Report](https://lookerstudio.google.com/reporting/ed13a0fc-1e74-4fb4-9625-de6b65a46f88)  
-- Source code, dataset, and supporting materials are included in this repository.  
-
----
-
-⭐ **Author:** Murti Sari Dewi 
-📅 **Year:** 2025  
+**Author:** Murti Sari Dewi 
+**Year:** 2025  
 
