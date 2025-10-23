@@ -78,6 +78,6 @@ This project is supported by an **interactive analytics dashboard**, providing v
 
 ---
 
-⭐ **Author:** [Murti Sari Dewi]  
+⭐ **Author:** Murti Sari Dewi 
 📅 **Year:** 2025  
 
